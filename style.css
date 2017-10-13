@@ -1,18 +1,53 @@
+/* General Styling */
+
 body {
 	margin-top: 50px;
 	margin-left: 0px;
 	padding: 0px;
-}
-
-
-h1,h2 {
+	background-color: #AFAFAF;
 	font-family: 'Sarala', sans-serif;
+	color: #FFF;
+}
+h1 {
+	font-family: 'Sarala', sans-serif;
+	margin: 0;
+}
+h2 {
+	font-family: 'ruda', sans-serif;
+	margin: 0;
+}
+p {
+	font-family: 'Ruda', sans-serif;
+}
+main {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+.panel-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 100%;
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
 }
 
+/* Header Panel */
+
+#site-header {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	background-color: #000;
+	width: 100%;
+	height: 50px;
+}
 .site-name {
-	align-self: center;
-	color: black;
-	font-family: 'Sarala', sans-serif;
+	color: #FFF;
 	font-size: 1.4em;
 	padding: 0px;
 	margin: 0px;
@@ -24,26 +59,101 @@ h1,h2 {
 .site-name a:visited {
 	color: #FFF;
 }
-
-.hamburger-menu {
+#hamburger-menu {
 	position: absolute;
-	left: 20px;
+	left: 25px;
 	height: 40px;
 	width: 40px;
-	margin: 10px;
+	margin: 12px 0px;
+	cursor: pointer;
 }
 
-p {
-	font-family: 'Ruda', sans-serif;
+
+/* Participants Panel */
+
+#participants-panel {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	min-height: 500px;
+	background-color: #FFF;
+	margin-left: 20px;
+}
+.participants-title h2 {
+	margin: 0px;
+	padding: 0px;
+}
+.participants-list {
+	display: flex;
+	flex-direction: column;
 }
 
-.site-header {
+
+/* Feedback Panel */
+
+#feedback-panel {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	min-height: 500px;
+	background-color: #FFF;
+	margin-right: 20px;
+}
+/* panel-title is already in participants panel section */
+.feedback-title h2 {
+	margin: 0px;
+	padding: 0px;
+}
+.feedback-list {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Main Panel */
+
+#main-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	width: 500px;
+	height: 400px;
+}
+#session-name {
+	background-color: rgba(0, 0, 0, 0);
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: flex-start;
+	color: #000;
+}
+#tab-panel {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	height: 40px;
+}
+.tabs {
+	height: 40px;
+	width: 30%;
 	display: flex;
 	justify-content: center;
-	position: fixed;
-	top: 0;
-	background-color: #000;
-	width: 100%;
-	height: 50px;
-
+	align-items: center;
+	cursor: pointer;
+}
+#start-tab {
+	background-color: #467AC6;
+}
+#stop-tab {
+	background-color: #4630BD;
+}
+#continue-tab {
+	background-color: #38C3A8;
+}
+#indicator-strip {
+	height: 10px;
+	background-color: #467AC6;
+}
+#input-area {
+	background-color: #FFF;
+	height: 300px;
 }
