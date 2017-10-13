@@ -1,0 +1,20 @@
+<svg width="30" height="25" viewBox="0 0 30 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Hamburger Menu</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-8 951)">
+<g id="Hamburger Menu">
+<g id="Rectangle 17">
+<use xlink:href="#path0_fill" transform="translate(8 -951)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 17">
+<use xlink:href="#path0_fill" transform="translate(8 -930.442)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 17">
+<use xlink:href="#path0_fill" transform="translate(8 -941.102)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 30 0L 30 4.44162L 0 4.44162L 0 0Z"/>
+</defs>
+</svg>

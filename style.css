@@ -1,0 +1,49 @@
+body {
+	margin-top: 50px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+
+h1,h2 {
+	font-family: 'Sarala', sans-serif;
+}
+
+.site-name {
+	align-self: center;
+	color: black;
+	font-family: 'Sarala', sans-serif;
+	font-size: 1.4em;
+	padding: 0px;
+	margin: 0px;
+}
+.site-name a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+.site-name a:visited {
+	color: #FFF;
+}
+
+.hamburger-menu {
+	position: absolute;
+	left: 20px;
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+}
+
+p {
+	font-family: 'Ruda', sans-serif;
+}
+
+.site-header {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	background-color: #000;
+	width: 100%;
+	height: 50px;
+
+}
