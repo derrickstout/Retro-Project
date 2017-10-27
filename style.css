@@ -1,0 +1,186 @@
+/* General Styling */
+
+body {
+	margin-top: 50px;
+	margin-left: 0px;
+	padding: 0px;
+	background-color: #AFAFAF;
+	font-family: 'Sarala', sans-serif;
+	color: #FFF;
+}
+h1 {
+	font-family: 'Sarala', sans-serif;
+	margin: 0;
+}
+h2 {
+	font-family: 'ruda', sans-serif;
+	margin: 0;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+}
+p {
+	font-family: 'Ruda', sans-serif;
+}
+main {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+.panel-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 100%;
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Header Panel */
+
+#site-header {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	background-color: #000;
+	width: 100%;
+	height: 50px;
+}
+.site-name {
+	color: #FFF;
+	font-size: 1.4em;
+	padding: 0px;
+	margin: 0px;
+}
+.site-name a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+.site-name a:visited {
+	color: #FFF;
+}
+#hamburger-menu {
+	position: absolute;
+	left: 25px;
+	height: 40px;
+	width: 40px;
+	margin: 12px 0px;
+	cursor: pointer;
+}
+
+
+/* Participants Panel */
+
+#participants-panel {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	min-height: 500px;
+	background-color: #FFF;
+	margin-left: 20px;
+}
+.participants-title h2 {
+	margin: 0px;
+	padding: 0px;
+}
+.participants-list {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Feedback Panel */
+
+#feedback-panel {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	min-height: 500px;
+	background-color: #FFF;
+	margin-right: 20px;
+}
+/* panel-title is already in participants panel section */
+.feedback-title h2 {
+	margin: 0px;
+	padding: 0px;
+}
+.feedback-list {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Main Panel */
+
+#main-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	width: 500px;
+/*	height: 400px;*/
+}
+#session-name {
+	background-color: rgba(0, 0, 0, 0);
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: flex-start;
+	color: #000;
+}
+
+#tabPanel {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	height: 40px;
+}
+.tabs {
+	height: 40px;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+.tabs:hover {
+  box-shadow: inset 0px 40px rgba(0,0,0,0.2);
+}
+#startTab {
+	background-color: #467AC6;
+}
+#stopTab {
+	background-color: #4630BD;
+}
+#continueTab {
+	background-color: #38C3A8;
+}
+
+.tabbedInput {
+	display: none;
+	height: 310px;
+}
+/* Indicator Strips */
+#startInputStrip {
+	background-color: #467AC6;
+}
+#stopInputStrip {
+	background-color: #4630BD;
+}
+#continueInputStrip {
+	background-color: #38C3A8;
+}
+.indicatorStrip {
+	height: 10px;
+}
+
+.inputArea {
+	background-color: #FFF;
+	height: 300px;
+}
+
+

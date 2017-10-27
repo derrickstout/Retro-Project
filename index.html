@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Retro Session</title>
+	<meta name="description" content="A tool for team retrospectives">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ruda|Sarala" rel="stylesheet">
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<div id="site-header">
+		<div id="hamburger-menu">
+			<img src="Images/Hamburger Menu.svg">
+		</div>
+		<div class="site-name">
+			<h1 class="site-name"><a href="http://www.retrosession.com">Retro Session</a></h1>
+		</div>
+	</div>
+	<main>
+
+		</div>
+		<div id="participants-panel">
+			<div class="panel-title">
+				<h2>Participants</h2>
+			</div>
+			<div class="participants-list">
+			</div>
+		</div>
+
+		<div id="main-panel">
+			<div id="session-name">
+				<h1>Sample Team Retrospective</h1>
+			</div>
+			<div id="tabPanel">
+			    <button class="tabs" id="startTab" onclick="openInput(event, 'startInput')">
+					<h2>Start</h2>
+				</button>
+				<button class="tabs" id="stopTab" onclick="openInput(event, 'stopInput')">
+					<h2>Stop</h2>
+				</button>
+				<button class="tabs" id="continueTab" onclick="openInput(event, 'continueInput')">
+					<h2>Continue</h2>
+				</button>
+			</div>
+			<div class="tabbedInput" id="startInput">
+				<div class="indicatorStrip" id="startInputStrip"></div>
+				<div class="inputArea"></div>
+			</div>
+			<div class="tabbedInput" id="stopInput">
+				<div class="indicatorStrip" id="stopInputStrip"></div>
+				<div class="inputArea"></div>
+			</div>
+			<div class="tabbedInput" id="continueInput">
+				<div class="indicatorStrip" id="continueInputStrip"></div>
+				<div class="inputArea"></div>
+			</div>		
+		</div>
+
+		<div id="feedback-panel">
+			<div class="panel-title">
+				<h2>Feedback</h2>
+			</div>
+			<div class="feedback-list">
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
