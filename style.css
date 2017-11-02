@@ -148,7 +148,10 @@ main {
 	padding: 0px;
 }
 .tabs:hover {
-  box-shadow: inset 0px 40px rgba(0,0,0,0.2);
+	box-shadow: inset 0px 40px rgba(0,0,0,0.2);
+}
+.tabs.active:hover {
+	box-shadow: none;
 }
 #startTab {
 	background-color: #467AC6;
